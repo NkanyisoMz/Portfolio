@@ -18,13 +18,24 @@ p {
 }
 
 .navbar {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px; 
+  background: #111;
   position: sticky;
   top: 0;
   z-index: 100;
   background: #111;
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
+.navbar nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
 .navbar a {
   color: #fff;
