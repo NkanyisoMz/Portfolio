@@ -10,6 +10,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont,
 body {
   background: #f9f9f9;
   color: #333;
+  line-height: 1.6;
+}
+
+p {
+  max-width: 70ch;
 }
 
 .navbar {
