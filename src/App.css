@@ -62,6 +62,10 @@ body {
   font-size: 1.6rem;
 }
 
+.section:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+
 .project-card {
   background: #fff;
   padding: 24px;
