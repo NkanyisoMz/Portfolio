@@ -134,6 +134,14 @@ p {
   gap: 10px;
 }
 
+.skills-list li {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 10px 12px;
+  border-radius: 999px;
+}
+
+
 a {
   color: inherit;
 }
