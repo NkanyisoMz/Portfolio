@@ -17,6 +17,13 @@ p {
   max-width: 70ch;
 }
 
+.hero p {
+  max-width: 60ch;
+  margin: 16px auto 0;
+  color: #555;
+}
+
+
 .navbar {
   display: flex; 
   justify-content: space-between; 
