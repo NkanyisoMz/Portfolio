@@ -91,6 +91,29 @@ p {
   border-bottom: 1px solid #e5e7eb;
 }
 
+.project-card h4 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  margin-top: 8px;
+  color: #444;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+
 .project-card {
   background: #fff;
   padding: 24px;
